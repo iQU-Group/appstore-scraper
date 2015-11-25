@@ -14,29 +14,27 @@ namespace Iqu\AppStore;
  */
 class SoftwareInfo
 {
-    const
-        ITUNES_URL = 'https://itunes.apple.com/',
-        LOOKUP = 'lookup?id=',
-        CURL_ERROR_FORMAT = 'Curl request failed for the url: %s',
-        CHECK_COUNTRY_REGEX = '/\A\D{2,3}\z/';
-
     /**
-     * Gets the basic information, keeps only the desired fields and returns the filtered results
+     * Gets the basic information for the software, keeps only the desired fields and returns the filtered results
      *
-     * @param $softwareId Unique id for the software given to it by Apple
-     * @param array $options curl request options
+     * @param int $softwareId Unique id for the software given to it by Apple
+     * @param array $curlOptions curl request options
      * @param array $filters Collection of fields to be returned
-     * @param string $country
+     * @param string $countryCode 2-letter country code
+     * @throws \Exception
      * @return array|null Filtered information
      */
-    public function getFilteredInfo($softwareId, array $options, array $filters, $country = "us")
+    public function getFilteredInfo($softwareId, array $curlOptions, array $filters, $countryCode = 'us')
     {
-        if (!$this->validateParams($softwareId, $country)) {
-            return null;
+        $msg = $this->validateParams($softwareId, $countryCode);
+        if ($msg) {
+            throw new \Exception($msg);
         }
+        $url = $this->buildUrl($softwareId, $countryCode);
+
         $filteredResults = array();
         try {
-            $output = $this->fetchData($softwareId, $country, $options);
+            $output = $this->fetchData($url, $curlOptions);
             if (is_null($output)) {
                 return null;
             }
@@ -59,25 +57,27 @@ class SoftwareInfo
     }
 
     /**
-     * Returns all the information.
+     * Returns all the information unfiltered.
      *
-     * @param $softwareId Unique id for the software given to it by Apple
-     * @param array $options curl request options
-     * @param string $country
+     * @param int $softwareId Unique id for the software given to it by Apple
+     * @param array $curlOptions curl request options
+     * @param string $countryCode
+     * @throws \Exception
      * @return mixed|null Unfiltered information
      */
-    public function getAllInfo($softwareId, array $options, $country = 'us')
+    public function getAllInfo($softwareId, array $curlOptions, $countryCode = 'us')
     {
-        if (!$this->validateParams($softwareId, $country)) {
-            return null;
+        $msg = $this->validateParams($softwareId, $countryCode);
+        if ($msg) {
+            throw new \Exception($msg);
         }
+        $url = $this->buildUrl($softwareId, $countryCode);
 
         $results = null;
         try {
-            $results = $this->fetchData($softwareId, $country, $options);
+            $results = $this->fetchData($url, $curlOptions);
         } catch (\Exception $ex) {
-            print_r($ex);
-            $results = null;
+            throw new \Exception($ex->getMessage());
         }
         return $results;
     }
@@ -85,24 +85,21 @@ class SoftwareInfo
     /**
      * Prepares and executes the curl to the iTunes url.
      *
-     * @param $softwareId Unique id for the software given to it by Apple
-     * @param array $options curl request options
-     * @param string $country
+     * @param string $url
+     * @param array $curlOptions curl request options
      * @return mixed|null Returns the response or null if something went wrong.
      */
-    private function fetchData($softwareId, array $options, $country = 'us')
+    private function fetchData($url, array $curlOptions)
     {
-        $url = $this->buildUrl($softwareId, $country);
         $results = null;
-
         try {
             $curlHandler = curl_init($url);
-            curl_setopt_array($curlHandler, $options);
+            curl_setopt_array($curlHandler, $curlOptions);
             $results = curl_exec($curlHandler);
-
             curl_close($curlHandler);
+
             if (false === $results) {
-                $msg = sprintf(self::CURL_ERROR_FORMAT, $url);
+                $msg = sprintf(Constants::CURL_ERROR_FORMAT, $url);
                 throw new \Exception($msg);
             }
         } catch (\Exception $ex) {
@@ -114,24 +111,32 @@ class SoftwareInfo
     /**
      * Builds the url.
      *
-     * @param $softwareId Unique id for the software given to it by Apple
-     * @param string $country
+     * @param int $softwareId Unique id for the software given to it by Apple
+     * @param string $countryCode
      * @return string
      */
-    private function buildUrl($softwareId, $country = 'us')
+    private function buildUrl($softwareId, $countryCode = 'us')
     {
-        return self::ITUNES_URL.$country.'/'.self::LOOKUP.$softwareId;
+        return Constants::ITUNES_URL.$countryCode.'/'.Constants::LOOKUP.$softwareId;
     }
 
     /**
      * Validates if the parameters are correct.
-     * softwareId should be an integer and country code should be a 2 or 3-letter word.
-     * @param $softwareId Unique id for the software given to it by Apple
-     * @param string $country
-     * @return bool
+     * Returns a message that gives proper information to the user.
+     * Returns an empty string if all the parameters are valid.
+     *
+     * @param int $softwareId
+     * @param string $countryCode
+     * @return string
      */
-    private function validateParams($softwareId, $country)
+    private function validateParams($softwareId, $countryCode)
     {
-        return ctype_digit($softwareId) && preg_match(self::CHECK_COUNTRY_REGEX, $country);
+        if (!ctype_digit($softwareId)) {
+            return 'Software Id '.$softwareId.' is not an integer.';
+        }
+        if (!Countries::checkIfValidCountryCode($countryCode)) {
+            return 'Country code '.$countryCode.' is not valid.';
+        }
+        return '';
     }
 }

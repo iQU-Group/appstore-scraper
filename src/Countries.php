@@ -9,7 +9,7 @@ namespace Iqu\AppStore;
 /**
  * Class that contains the official collection of country codes and names for
  *
- * @package Iqu\AppStore\Config
+ * @package Iqu\AppStore
  * @author Evangelos Karvounis
  */
 abstract class Countries

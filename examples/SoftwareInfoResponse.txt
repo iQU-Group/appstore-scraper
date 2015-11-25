@@ -1,0 +1,88 @@
+
+{
+ 	"resultCount":1,
+ 	"results": [
+		{
+			"isGameCenterEnabled":true, 
+			"ipadScreenshotUrls":[
+				"http://a3.mzstatic.com/us/r30/Purple69/v4/fa/68/39/fa683979-962a-340f-9c87-f3e702255104/screen480x480.jpeg", 
+				"http://a4.mzstatic.com/us/r30/Purple69/v4/01/ee/7f/01ee7ff6-0799-7b73-490c-0f954c7f9dc6/screen480x480.jpeg", 
+				"http://a2.mzstatic.com/us/r30/Purple69/v4/04/3b/ae/043baea0-751b-939e-2534-a076240e983a/screen480x480.jpeg", 
+				"http://a5.mzstatic.com/us/r30/Purple69/v4/81/16/b1/8116b1ac-032a-5b83-f8ed-b1eedc641501/screen480x480.jpeg", 
+				"http://a5.mzstatic.com/us/r30/Purple69/v4/fc/2f/3f/fc2f3fa4-7530-18f0-5c66-d5daa7bbdf4e/screen480x480.jpeg"
+			], 
+			"screenshotUrls":[
+				"http://a5.mzstatic.com/us/r30/Purple69/v4/e1/dc/c0/e1dcc05e-0b4f-2e45-290d-9f2cce43885d/screen1136x1136.jpeg", 
+				"http://a2.mzstatic.com/us/r30/Purple69/v4/43/cf/6a/43cf6a50-3ed2-2021-9abc-9d91da9e4bd0/screen1136x1136.jpeg", 
+				"http://a3.mzstatic.com/us/r30/Purple69/v4/72/7f/d6/727fd6f3-dfe4-bccd-f3e6-9b9c0c8f3787/screen1136x1136.jpeg", 
+				"http://a4.mzstatic.com/us/r30/Purple69/v4/ed/de/13/edde13f6-2e0d-13ac-7216-8be4c3198b70/screen1136x1136.jpeg", 
+				"http://a4.mzstatic.com/us/r30/Purple69/v4/b2/b9/da/b2b9da4c-dbd6-0825-f5fa-4afae90f2b50/screen1136x1136.jpeg"
+			], 
+			"artworkUrl60":"http://is2.mzstatic.com/image/thumb/Purple69/v4/99/e8/c3/99e8c376-82f7-b24a-e659-cd483ab639f6/source/60x60bb.jpg", 
+			"artworkUrl512":"http://is2.mzstatic.com/image/thumb/Purple69/v4/99/e8/c3/99e8c376-82f7-b24a-e659-cd483ab639f6/source/512x512bb.jpg", 
+			"artworkUrl100":"http://is2.mzstatic.com/image/thumb/Purple69/v4/99/e8/c3/99e8c376-82f7-b24a-e659-cd483ab639f6/source/100x100bb.jpg", 
+			"artistViewUrl":"https://itunes.apple.com/us/developer/kiloo/id330629809?uo=4", 
+			"kind":"software", 
+			"features":[
+				"gameCenter", 
+				"iosUniversal"
+			], 
+			"supportedDevices":[
+				"iPhone4", 
+				"iPad2Wifi", 
+				"iPad23G", 
+				"iPhone4S", 
+				"iPadThirdGen", 
+				"iPadThirdGen4G", 
+				"iPhone5", 
+				"iPodTouchFifthGen", 
+				"iPadFourthGen", 
+				"iPadFourthGen4G", 
+				"iPadMini", 
+				"iPadMini4G", 
+				"iPhone5c", 
+				"iPhone5s", 
+				"iPhone6", 
+				"iPhone6Plus", 
+				"iPodTouchSixthGen"
+			], 
+			"advisories":["Infrequent/Mild Cartoon or Fantasy Violence"], 
+			"trackCensoredName":"Subway Surfers", 
+			"languageCodesISO2A":["EN"], 
+			"fileSizeBytes":"91645961", 
+			"sellerUrl":"http://www.kiloo.com/games", 
+			"contentAdvisoryRating":"9+", 
+			"averageUserRatingForCurrentVersion":4.0, 
+			"userRatingCountForCurrentVersion":2525, 
+			"trackViewUrl":"https://itunes.apple.com/us/app/subway-surfers/id512939461?mt=8&uo=4", 
+			"trackContentRating":"9+", 
+			"currency":"USD", 
+			"wrapperType":"software", 
+			"version":"1.47.1", 
+			"artistId":330629809, 
+			"artistName":"Kiloo", 
+			"genres":[
+				"Games", 
+				"Action", 
+				"Arcade", 
+				"Entertainment"
+			], 
+			"price":0.00, 
+			"description":"Presented by Kiloo Games and Sybo Games.\n\nDASH as fast as you can!\nDODGE the oncoming trains!\n\nHelp Jake, Tricky & Fresh escape from the grumpy Inspector and his dog.\n\n- Grind trains with your cool crew!\n- Colorful and vivid HD graphics!\n- Hoverboard Surfing!\n- Paint powered jetpack!\n- Lightning fast swipe acrobatics!\n- Challenge and help your friends!\n\nJoin the App Store's most daring chase!\n\nA Universal App with hd optimized graphics for retina resolution.\n\nSubway Surfers is compatible with iPod 5, iPhone 4, iPhone 4s, iPhone 5, iPhone 5s, iPhone 5c, iPhone 6, iPhone 6 Plus, iPad 2, iPad 3, iPad 4, iPad Air, iPad Air 2, iPad Mini, iPad Mini Retina, iPad Mini 3.\n\niOS 7 or later OS version is required.", 
+			"genreIds":["6014", "7001", "7003", "6016"], 
+			"releaseDate":"2012-05-24T07:00:00Z", 
+			"sellerName":"Kiloo", 
+			"trackId":512939461, 
+			"trackName":"Subway Surfers", 
+			"bundleId":"com.kiloo.subwaysurfers", 
+			"releaseNotes":"1.47.1\n- Critical performance fix\n\n1.47.0\n- The Subway Surfers World Tour continues in Japan\n- Explore the vibrant Subway of Tokyo with Jake and his friends\n- Customize your crew with a spectacular Outfit for Harumi\n- Fly through the buzzing metropolis on the cute Kitty board \n- Join Weekly Hunts on the neon-lit tracks to compete for great prizes", 
+			"primaryGenreName":"Games", 
+			"primaryGenreId":6014, 
+			"isVppDeviceBasedLicensingEnabled":true, 
+			"formattedPrice":"Free", 
+			"minimumOsVersion":"7.0", 
+			"averageUserRating":4.5, 
+			"userRatingCount":630215
+		}
+	]
+}

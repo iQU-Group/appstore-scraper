@@ -14,13 +14,6 @@ namespace Iqu\AppStore;
  */
 class SoftwareReviews
 {
-    const
-        ITUNES_REVIEWS_URL = 'https://itunes.apple.com/%s/rss/customerreviews/page=%d/id=%d/sortBy=%s/json',
-        CURL_ERROR_FORMAT = 'Curl request failed for the url: %s',
-        PAGE_NUMBER_MIN = 1,
-        PAGE_NUMBER_MAX = 10,
-        FETCH_PAGE = "Fetching page number %d, software id %d, country %s, sorted by %s.\n";
-
     private $sortTypes = array(
         'mostRecent',
         'mostHelpful'
@@ -33,14 +26,23 @@ class SoftwareReviews
      * @param int $softwareId Unique software id
      * @param string $sortType The type the reviews are going to be sorted
      * @param array $curlOptions curl options
+     * @throws \Exception
      * @return array All reviews for a software
      */
     public function getAllPagesReviews($countryCode, $softwareId, $sortType, array $curlOptions)
     {
         $reviews = array();
-        for ($pageNumber = self::PAGE_NUMBER_MIN; $pageNumber <= self::PAGE_NUMBER_MAX; $pageNumber++) {
-            $pageReviews = $this->getOnePageReviews($countryCode, $pageNumber, $softwareId, $sortType, $curlOptions);
-            $reviews = array_merge($pageReviews, $reviews);
+        try {
+            for ($pageNumber = Constants::PAGE_NUMBER_MIN; $pageNumber <= Constants::PAGE_NUMBER_MAX; $pageNumber++) {
+
+                $pageReviews = $this->getOnePageReviews($countryCode, $pageNumber, $softwareId, $sortType, $curlOptions);
+                if (is_null($pageReviews)) {
+                    return null;
+                }
+                $reviews = array_merge($pageReviews, $reviews);
+            }
+        } catch (\Exception $e) {
+            throw new \Exception($e->getMessage());
         }
         return $reviews;
     }
@@ -53,16 +55,22 @@ class SoftwareReviews
      * @param int $softwareId Unique software id
      * @param string $sortType The type the reviews are going to be sorted
      * @param array $curlOptions curl options
+     * @throws \Exception
      * @return array|null
      */
     public function getOnePageReviews($countryCode, $pageNumber, $softwareId, $sortType, array $curlOptions)
     {
-        print_r(sprintf(self::FETCH_PAGE, $pageNumber, $softwareId, $countryCode, $sortType));
+        $msg = $this->validateParams($countryCode, $pageNumber, $softwareId, $sortType);
+        if ($msg) {
+            throw new \Exception($msg);
+        }
+
+        print_r(sprintf(Constants::FETCH_PAGE, $pageNumber, $softwareId, $countryCode, $sortType));
         $url = $this->buildUrl($countryCode, $pageNumber, $softwareId, $sortType);
 
         try {
             $results = $this->fetchData($url, $curlOptions);
-            if (!$this->containsReviews($results)) {
+            if (!$this->containsReviews($results) || is_null($results)) {
                 return null;
             }
             $results = json_decode($results);
@@ -74,7 +82,12 @@ class SoftwareReviews
         return $customResults;
     }
 
-    //TODO::CHECK IF THE REQUEST IS ACTUALLY RETURNING SOMETHING
+    /**
+     * Parses the reviews and filters their fields. Returns the filtered review results.
+     *
+     * @param $reviews
+     * @return array
+     */
     private function parseReviews($reviews)
     {
         $reviews = $reviews->feed->entry;
@@ -92,24 +105,12 @@ class SoftwareReviews
                 'reviewTitle' => $currentReview->title->label,
                 'reviewContent' => $currentReview->content->label,
                 'rating' => $currentReview->{'im:rating'}->label,
-                'reviewId' => $currentReview->id->label
+                'reviewId' => $currentReview->id->label,
+                'voteSum' => $currentReview->{'im:voteSum'}->label,
+                'voteCount' => $currentReview->{'im:voteCount'}->label
             );
         }
         return $customResults;
-    }
-
-    /**
-     * Filters the reviewer's URI in order to extract the unique reviewer's id.
-     *
-     * @param string $reviewerUri
-     * @return mixed
-     */
-    private function filterReviewerId($reviewerUri)
-    {
-        $regex = '/id(\d+)/';
-        if (preg_match($regex, $reviewerUri, $matches)) {
-            return $matches[1];
-        }
     }
 
     /**
@@ -141,7 +142,7 @@ class SoftwareReviews
 
             curl_close($curlHandler);
             if (false === $results) {
-                $msg = sprintf(self::CURL_ERROR_FORMAT, $url);
+                $msg = sprintf(Constants::CURL_ERROR_FORMAT, $url);
                 throw new \Exception($msg);
             }
         } catch (\Exception $ex) {
@@ -150,16 +151,26 @@ class SoftwareReviews
         return $results;
     }
 
-    private function validateParams($country, $pageNo, $softId, $sortType)
+    /**
+     * Validates the parameters. Returns a message that gives proper information to the user.
+     * Returns an empty string if all the parameters are valid.
+     *
+     * @param string $countryCode
+     * @param int $pageNumber
+     * @param int $softwareId
+     * @param string $sortType
+     * @return string
+     */
+    private function validateParams($countryCode, $pageNumber, $softwareId, $sortType)
     {
-        if (!Countries::checkIfValidCountryCode($country)) {
-            return 'Country code '.$country.' is not valid.';
+        if (!Countries::checkIfValidCountryCode($countryCode)) {
+            return 'Country code '.$countryCode.' is not valid.';
         }
-        if (!$this->validatePageNumber($pageNo)) {
-            return 'Page number '.$pageNo.' is not valid as it is outside the range ['.self::PAGE_NUMBER_MIN.', '.self::PAGE_NUMBER_MAX.'].';
+        if (!$this->validatePageNumber($pageNumber)) {
+            return 'Page number '.$pageNumber.' is not valid as it is outside the range ['.Constants::PAGE_NUMBER_MIN.', '.Constants::PAGE_NUMBER_MAX.'].';
         }
-        if (!ctype_digit($softId)) {
-            return 'Software Id '.$softId.' is not an integer.';
+        if (!ctype_digit($softwareId)) {
+            return 'Software Id '.$softwareId.' is not an integer.';
         }
         if (!$this->validateSortType($sortType)) {
             return 'Sort Type '.$sortType.' is not valid.';
@@ -167,6 +178,12 @@ class SoftwareReviews
         return '';
     }
 
+    /**
+     * Validates the input sort type.
+     *
+     * @param string $sortType
+     * @return bool
+     */
     private function validateSortType($sortType)
     {
         foreach ($this->sortTypes as $types) {
@@ -185,20 +202,35 @@ class SoftwareReviews
      */
     private function validatePageNumber($pageNumber)
     {
-        return ($pageNumber >= self::PAGE_NUMBER_MIN && $pageNumber <= self::PAGE_NUMBER_MAX);
+        return ($pageNumber >= Constants::PAGE_NUMBER_MIN && $pageNumber <= Constants::PAGE_NUMBER_MAX);
+    }
+
+    /**
+     * Filters the reviewer's URI in order to extract the unique reviewer's id.
+     *
+     * @param string $reviewerUri
+     * @return mixed
+     */
+    private function filterReviewerId($reviewerUri)
+    {
+        $regex = '/id(\d+)/';
+        if (preg_match($regex, $reviewerUri, $matches)) {
+            return $matches[1];
+        }
+        return '';
     }
 
     /**
      * Builds the url.
      *
-     * @param string $country
-     * @param int $pageNo
-     * @param int $softId
-     * @param string $sort
+     * @param string $countryCode
+     * @param int $pageNumber
+     * @param int $softwareId
+     * @param string $sortType
      * @return string
      */
-    private function buildUrl($country, $pageNo, $softId, $sort)
+    private function buildUrl($countryCode, $pageNumber, $softwareId, $sortType)
     {
-        return sprintf(self::ITUNES_REVIEWS_URL, $country, $pageNo, $softId, $sort);
+        return sprintf(Constants::ITUNES_REVIEWS_URL, $countryCode, $pageNumber, $softwareId, $sortType);
     }
 }
