@@ -14,6 +14,11 @@ namespace Iqu\AppStore;
  */
 class SoftwareInfo
 {
+    const
+        ITUNES_URL = 'https://itunes.apple.com/',
+        LOOKUP = 'lookup?id=',
+        CURL_ERROR_FORMAT = 'Curl request failed for the url: %s';
+
     /**
      * Gets the basic information for the software, keeps only the desired fields and returns the filtered results
      *
@@ -99,7 +104,7 @@ class SoftwareInfo
             curl_close($curlHandler);
 
             if (false === $results) {
-                $msg = sprintf(Constants::CURL_ERROR_FORMAT, $url);
+                $msg = sprintf(self::CURL_ERROR_FORMAT, $url);
                 throw new \Exception($msg);
             }
         } catch (\Exception $ex) {
@@ -117,7 +122,7 @@ class SoftwareInfo
      */
     private function buildUrl($softwareId, $countryCode = 'us')
     {
-        return Constants::ITUNES_URL.$countryCode.'/'.Constants::LOOKUP.$softwareId;
+        return self::ITUNES_URL.$countryCode.'/'.self::LOOKUP.$softwareId;
     }
 
     /**

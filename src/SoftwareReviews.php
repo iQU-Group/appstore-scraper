@@ -14,6 +14,13 @@ namespace Iqu\AppStore;
  */
 class SoftwareReviews
 {
+    const
+        ITUNES_REVIEWS_URL = 'https://itunes.apple.com/%s/rss/customerreviews/page=%d/id=%d/sortBy=%s/json',
+        PAGE_NUMBER_MIN = 1,
+        PAGE_NUMBER_MAX = 10,
+        FETCH_PAGE_MESSAGE = "Fetching page number %d, software id %d, country %s, sorted by %s.\n",
+        CURL_ERROR_FORMAT = 'Curl request failed for the url: %s';
+
     private $sortTypes = array(
         'mostRecent',
         'mostHelpful'
@@ -33,7 +40,7 @@ class SoftwareReviews
     {
         $reviews = array();
         try {
-            for ($pageNumber = Constants::PAGE_NUMBER_MIN; $pageNumber <= Constants::PAGE_NUMBER_MAX; $pageNumber++) {
+            for ($pageNumber = self::PAGE_NUMBER_MIN; $pageNumber <= self::PAGE_NUMBER_MAX; $pageNumber++) {
 
                 $pageReviews = $this->getOnePageReviews($countryCode, $pageNumber, $softwareId, $sortType, $curlOptions);
                 if (is_null($pageReviews)) {
@@ -65,7 +72,7 @@ class SoftwareReviews
             throw new \Exception($msg);
         }
 
-        print_r(sprintf(Constants::FETCH_PAGE, $pageNumber, $softwareId, $countryCode, $sortType));
+        print_r(sprintf(self::FETCH_PAGE_MESSAGE, $pageNumber, $softwareId, $countryCode, $sortType));
         $url = $this->buildUrl($countryCode, $pageNumber, $softwareId, $sortType);
 
         try {
@@ -142,7 +149,7 @@ class SoftwareReviews
 
             curl_close($curlHandler);
             if (false === $results) {
-                $msg = sprintf(Constants::CURL_ERROR_FORMAT, $url);
+                $msg = sprintf(self::CURL_ERROR_FORMAT, $url);
                 throw new \Exception($msg);
             }
         } catch (\Exception $ex) {
@@ -167,7 +174,7 @@ class SoftwareReviews
             return 'Country code '.$countryCode.' is not valid.';
         }
         if (!$this->validatePageNumber($pageNumber)) {
-            return 'Page number '.$pageNumber.' is not valid as it is outside the range ['.Constants::PAGE_NUMBER_MIN.', '.Constants::PAGE_NUMBER_MAX.'].';
+            return 'Page number '.$pageNumber.' is not valid as it is outside the range ['.self::PAGE_NUMBER_MIN.', '.self::PAGE_NUMBER_MAX.'].';
         }
         if (!ctype_digit($softwareId)) {
             return 'Software Id '.$softwareId.' is not an integer.';
@@ -202,7 +209,7 @@ class SoftwareReviews
      */
     private function validatePageNumber($pageNumber)
     {
-        return ($pageNumber >= Constants::PAGE_NUMBER_MIN && $pageNumber <= Constants::PAGE_NUMBER_MAX);
+        return ($pageNumber >= self::PAGE_NUMBER_MIN && $pageNumber <= self::PAGE_NUMBER_MAX);
     }
 
     /**
@@ -231,6 +238,6 @@ class SoftwareReviews
      */
     private function buildUrl($countryCode, $pageNumber, $softwareId, $sortType)
     {
-        return sprintf(Constants::ITUNES_REVIEWS_URL, $countryCode, $pageNumber, $softwareId, $sortType);
+        return sprintf(self::ITUNES_REVIEWS_URL, $countryCode, $pageNumber, $softwareId, $sortType);
     }
 }
