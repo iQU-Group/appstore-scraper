@@ -1,0 +1,20 @@
+{
+    "name": "iqu/appstore-scraper",
+    "description": "Scraper to scrape AppStore software basic information and reviews.",
+    "authors": [
+        {
+            "name": "Evangelos Karvounis",
+            "email": "evangelos.karvounis@iqu.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "*",
+        "phpdocumentor/phpdocumentor": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iqu\\AppStore\\": "src/",
+            "Iqu\\AppStore\\Config\\": "config/"
+        }
+    }
+}
