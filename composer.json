@@ -9,7 +9,8 @@
     ],
     "require": {
         "phpunit/phpunit": "*",
-        "phpdocumentor/phpdocumentor": "*"
+        "phpdocumentor/phpdocumentor": "*",
+        "iqu/apple-store-country-list": "dev-master"
     },
     "autoload": {
         "psr-4": {
