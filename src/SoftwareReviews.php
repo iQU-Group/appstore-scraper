@@ -6,6 +6,8 @@
 
 namespace Iqu\AppStore;
 
+use AppStoreCountries\Countries;
+
 /**
  * Class that deals with fetching the reviews from AppStore.
  *
