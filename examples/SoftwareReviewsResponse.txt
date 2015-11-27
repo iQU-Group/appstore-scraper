@@ -1,0 +1,2496 @@
+{
+  "feed": {
+    "author": {
+      "name": {
+        "label": "iTunes Store"
+      },
+      "uri": {
+        "label": "http://www.apple.com/itunes/"
+      }
+    },
+    "entry": [
+      {
+        "im:name": {
+          "label": "Candy Crush Saga"
+        },
+        "rights": {
+          "label": "© King.com Limited 2011-13. All rights reserved."
+        },
+        "im:price": {
+          "label": "Get",
+          "attributes": {
+            "amount": "0.00000",
+            "currency": "USD"
+          }
+        },
+        "im:image": [
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Purple6/v4/9b/4c/f2/9b4cf2b3-112c-230d-7e20-f055c9adce7f/mzl.adxicrrg.png/53x53bb-85.png",
+            "attributes": {
+              "height": "53"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Purple6/v4/9b/4c/f2/9b4cf2b3-112c-230d-7e20-f055c9adce7f/mzl.adxicrrg.png/75x75bb-85.png",
+            "attributes": {
+              "height": "75"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Purple6/v4/9b/4c/f2/9b4cf2b3-112c-230d-7e20-f055c9adce7f/mzl.adxicrrg.png/100x100bb-85.png",
+            "attributes": {
+              "height": "100"
+            }
+          }
+        ],
+        "im:artist": {
+          "label": "King.com Limited",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/developer/king.com-limited/id526656015?mt=8&uo=2"
+          }
+        },
+        "title": {
+          "label": "Candy Crush Saga - King.com Limited"
+        },
+        "link": {
+          "attributes": {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://itunes.apple.com/us/app/candy-crush-saga/id553834731?mt=8&uo=2"
+          }
+        },
+        "id": {
+          "label": "https://itunes.apple.com/us/app/candy-crush-saga/id553834731?mt=8&uo=2",
+          "attributes": {
+            "im:id": "553834731",
+            "im:bundleId": "com.midasplayer.apps.candycrushsaga"
+          }
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "6014",
+            "term": "Games",
+            "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+            "label": "Games"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2012-11-14T06:41:32-07:00",
+          "attributes": {
+            "label": "November 14, 2012"
+          }
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id391613651"
+          },
+          "name": {
+            "label": "Cluso50"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1287068487"
+        },
+        "title": {
+          "label": "Candy crush"
+        },
+        "content": {
+          "label": "Fun but pretty difficult if u can't afford the extras",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id215074281"
+          },
+          "name": {
+            "label": "Mouln"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1287066416"
+        },
+        "title": {
+          "label": "wonderful"
+        },
+        "content": {
+          "label": "thanks alot for this game",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id131955619"
+          },
+          "name": {
+            "label": "Wwwiiifffeeeaaasssaaa"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1287055342"
+        },
+        "title": {
+          "label": "So addicting"
+        },
+        "content": {
+          "label": "I love candy crush so much I play it everywhere!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id7707650"
+          },
+          "name": {
+            "label": "Suesweetsue"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1287047047"
+        },
+        "title": {
+          "label": "Lots of Bonus Features"
+        },
+        "content": {
+          "label": "Loads of fun, even more boosters.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id479070677"
+          },
+          "name": {
+            "label": "Tammy Studevent"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1287040027"
+        },
+        "title": {
+          "label": "Review"
+        },
+        "content": {
+          "label": "Love this game!! The only game I have kept playing until I beat a level! Love the holiday levels. Will beat this game.👍🏼😀",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id164336392"
+          },
+          "name": {
+            "label": "Bobcat826"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "1287038657"
+        },
+        "title": {
+          "label": "Candy crush"
+        },
+        "content": {
+          "label": "Some levels are impossible!!!!levels 126 and 127 are not what they were before.  127 is impossible",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id240101281"
+          },
+          "name": {
+            "label": "Leogursky123321"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "1287025162"
+        },
+        "title": {
+          "label": "good game"
+        },
+        "content": {
+          "label": "Good game",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id256505013"
+          },
+          "name": {
+            "label": "Boucher_In_ATL"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1287022870"
+        },
+        "title": {
+          "label": "Candy crush"
+        },
+        "content": {
+          "label": "Man this game is awesome!!!!!! Nice upgrades also.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id158104332"
+          },
+          "name": {
+            "label": "Chrbiscuit123"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1287013441"
+        },
+        "title": {
+          "label": "Awesome"
+        },
+        "content": {
+          "label": "It's a fun game",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id43823429"
+          },
+          "name": {
+            "label": "PartyNaked@Work"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "1287006651"
+        },
+        "title": {
+          "label": "Candy Crush Saga"
+        },
+        "content": {
+          "label": "Wait times can be annoying, fun game otherwise.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id148480634"
+          },
+          "name": {
+            "label": "Eggman77777"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1287005251"
+        },
+        "title": {
+          "label": "👍"
+        },
+        "content": {
+          "label": "Like a lot",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id127678050"
+          },
+          "name": {
+            "label": "Jeremy Law"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1287004194"
+        },
+        "title": {
+          "label": "Love it"
+        },
+        "content": {
+          "label": "Fantastic",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id341431442"
+          },
+          "name": {
+            "label": "Oveis AP"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1287001457"
+        },
+        "title": {
+          "label": "Great game"
+        },
+        "content": {
+          "label": "I really like it",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id227856713"
+          },
+          "name": {
+            "label": "Oreo coco"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286998189"
+        },
+        "title": {
+          "label": "Love it"
+        },
+        "content": {
+          "label": "Cool",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id164224265"
+          },
+          "name": {
+            "label": "Carrie Kat"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286988220"
+        },
+        "title": {
+          "label": "SWEET!"
+        },
+        "content": {
+          "label": "Each game is unique! Some more challenging😊",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id371423732"
+          },
+          "name": {
+            "label": "Kaymoneybaby"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "1286981056"
+        },
+        "title": {
+          "label": "Real cool"
+        },
+        "content": {
+          "label": "Almost addicting lol awesome, cool",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id105685061"
+          },
+          "name": {
+            "label": "Scamm27"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "1286970567"
+        },
+        "title": {
+          "label": "Yeah"
+        },
+        "content": {
+          "label": "Fun",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id387901025"
+          },
+          "name": {
+            "label": "Aso803"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "1286963416"
+        },
+        "title": {
+          "label": "Okay game"
+        },
+        "content": {
+          "label": "Changes made have taken the fun out of the game",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id437075774"
+          },
+          "name": {
+            "label": "FancyNash"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286960645"
+        },
+        "title": {
+          "label": "Wasting away"
+        },
+        "content": {
+          "label": "Get way to gain weight and be lazy",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id479045291"
+          },
+          "name": {
+            "label": "Ckaz44"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "1286955985"
+        },
+        "title": {
+          "label": "Fun"
+        },
+        "content": {
+          "label": "Just doing this for the bonus",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id414223608"
+          },
+          "name": {
+            "label": "Freemo3"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "1286951141"
+        },
+        "title": {
+          "label": "Fun"
+        },
+        "content": {
+          "label": "Like waiting a time limit for next levels instead of relying on tickets from friends",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id108192134"
+          },
+          "name": {
+            "label": "Rob Comet"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "1286893891"
+        },
+        "title": {
+          "label": "Addictive"
+        },
+        "content": {
+          "label": "Let the kid cry!!!! Do not get this game. Addictive, too mush trying to make you spend real money. Not fun because of this!!!!! \nSTAY!!! AWAY!!!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id276801146"
+          },
+          "name": {
+            "label": "jazrdmine"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286893377"
+        },
+        "title": {
+          "label": "It's great"
+        },
+        "content": {
+          "label": "Liked it a lot",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id233405565"
+          },
+          "name": {
+            "label": "AmariRenee"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286887917"
+        },
+        "title": {
+          "label": "Love"
+        },
+        "content": {
+          "label": "I love this game !",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id119404479"
+          },
+          "name": {
+            "label": "CrystalTurtles"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286867165"
+        },
+        "title": {
+          "label": "Addictive!!!"
+        },
+        "content": {
+          "label": "I love it and hate it.  I hate it when the level is so difficult it takes days to get past it.. But love it that it is challenging and fun. Addictive for sure.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id479016543"
+          },
+          "name": {
+            "label": "Fanny lu Sonias"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "1286852817"
+        },
+        "title": {
+          "label": "Is fantastic candy crush"
+        },
+        "content": {
+          "label": "I liked this game is my favorite I play every time this relax me",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id479015023"
+          },
+          "name": {
+            "label": "Rosebooty"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286847071"
+        },
+        "title": {
+          "label": "Awesome"
+        },
+        "content": {
+          "label": "This game is more addictive than chocolate",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id474695690"
+          },
+          "name": {
+            "label": "Mis.G"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286843831"
+        },
+        "title": {
+          "label": "Candy crush"
+        },
+        "content": {
+          "label": "Es muy divertido pero difícil.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id297747327"
+          },
+          "name": {
+            "label": "Fludufla"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286831373"
+        },
+        "title": {
+          "label": "Aahhhh"
+        },
+        "content": {
+          "label": "Whats the highest level 😱😱",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id217389601"
+          },
+          "name": {
+            "label": "Spider1153"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286829403"
+        },
+        "title": {
+          "label": "Awsome!"
+        },
+        "content": {
+          "label": "Love how many levels there are. Never get tired of playing this game.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id403106765"
+          },
+          "name": {
+            "label": "Anthony G!!"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286816940"
+        },
+        "title": {
+          "label": "Still the Classic!"
+        },
+        "content": {
+          "label": "Forever the best quick fun game to play at any time.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id117375994"
+          },
+          "name": {
+            "label": "The Plybons"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "1286816574"
+        },
+        "title": {
+          "label": "VERY UPSET"
+        },
+        "content": {
+          "label": "No longer have iphone 5. So, I'm using my almost new iphone 3G that has ios 6.1.6. The problem is Candy Crush only requires ios 5.1.1!!! I guess it's a Facebook app issue. Please fix! 😡",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id225856736"
+          },
+          "name": {
+            "label": "Biking n' fun"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "1286813479"
+        },
+        "title": {
+          "label": "Challenging entertainment"
+        },
+        "content": {
+          "label": "Fun game. When bored I play it. Some levels harder than others and some repetitive. No glitches.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id17675733"
+          },
+          "name": {
+            "label": "Tha poison man"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286811203"
+        },
+        "title": {
+          "label": "Awesome!!!"
+        },
+        "content": {
+          "label": "Very addicting, SWEET!!! As they say ;)",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id183408740"
+          },
+          "name": {
+            "label": "cmurrayy"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "1286807185"
+        },
+        "title": {
+          "label": "Fun"
+        },
+        "content": {
+          "label": "Fun game.  Berry addicting",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id115003384"
+          },
+          "name": {
+            "label": "Bieberdork"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "1286798703"
+        },
+        "title": {
+          "label": "Fun overall"
+        },
+        "content": {
+          "label": "Love the game, but it randomly made me start over. I don't like how it makes you wait 3 days for episodes instead of playing 3 level like it used to be.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id118656936"
+          },
+          "name": {
+            "label": "Firsttry"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "2"
+        },
+        "id": {
+          "label": "1286797265"
+        },
+        "title": {
+          "label": "Unbeatable level"
+        },
+        "content": {
+          "label": "Level 1293 is impossible to win. There are no specials every 4th move. This makes it unbeatable and needs to be fixed.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id235569595"
+          },
+          "name": {
+            "label": "Mariankyle"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "1286793827"
+        },
+        "title": {
+          "label": "Patient Player"
+        },
+        "content": {
+          "label": "I enjoy this game because I don't have to spend money to enjoy it. I like that I'm limited to losing 5 hearts and then I have to put it down and walk away. When you get to a new episode, just have to walk away for a few days before it unlocks. It helps keep me from getting \"addicted\".",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id417556786"
+          },
+          "name": {
+            "label": "6 year old8657"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286788694"
+        },
+        "title": {
+          "label": "Addicting"
+        },
+        "content": {
+          "label": "Fun and addicting! Only bummer is having to wait for lives.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id21670635"
+          },
+          "name": {
+            "label": "mattandvic"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286788424"
+        },
+        "title": {
+          "label": "Can't quit..."
+        },
+        "content": {
+          "label": "Enough said.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id454573829"
+          },
+          "name": {
+            "label": "Teetee yup"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286786634"
+        },
+        "title": {
+          "label": "😊"
+        },
+        "content": {
+          "label": "I stay in first place",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id36317519"
+          },
+          "name": {
+            "label": "jessicamichelle001"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "4"
+        },
+        "id": {
+          "label": "1286782904"
+        },
+        "title": {
+          "label": "Love but has some problems!"
+        },
+        "content": {
+          "label": "I actually really enjoy playing candy crush. It's seriously the only actual game I have on my phone. I like that I can earn helpful items and don't have to spend money on it. I really love a lot of things about the game... But I hate that there is something always wrong with my game. I can almost never receive the lives or tickets when my friends send me them! I can literally watch my husband send me a life and I can see the notification on facebook, but when the app loads, nothing. No life, no tickets. It's so frustrating! I know it's not just me, I've seen this happen to others and it honestly is starting to turn my off from playing. I am glad there is now a time limit so if you can move on if you don't get tickets but I still am a bit put off. If I am allowed to receive lives and tickets from friends then why does it never work.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id280064039"
+          },
+          "name": {
+            "label": "ThatOneGirl80"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286773237"
+        },
+        "title": {
+          "label": "Addictive"
+        },
+        "content": {
+          "label": "Very addictive, time consuming game.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id325789773"
+          },
+          "name": {
+            "label": "Ohiost181"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286771971"
+        },
+        "title": {
+          "label": "Great game"
+        },
+        "content": {
+          "label": "Awesome!!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id209175855"
+          },
+          "name": {
+            "label": "Special teacher83"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286770045"
+        },
+        "title": {
+          "label": "Love"
+        },
+        "content": {
+          "label": "This game is so fun!!!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id368937328"
+          },
+          "name": {
+            "label": "Lyza Jayne"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286766448"
+        },
+        "title": {
+          "label": "Great Game"
+        },
+        "content": {
+          "label": "This game is awesome.! I can't believe how awesome and addicting this game is.! Candy Crush is a game that's fun and also a learning experience. It's deals with patience and problem solving. Great game for kids and adults.!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id475717444"
+          },
+          "name": {
+            "label": "Nech409"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "3"
+        },
+        "id": {
+          "label": "1286761349"
+        },
+        "title": {
+          "label": "Game"
+        },
+        "content": {
+          "label": "Good game good game, could be better",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id429732668"
+          },
+          "name": {
+            "label": "sarah maxwell445"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286758467"
+        },
+        "title": {
+          "label": "Candy crush"
+        },
+        "content": {
+          "label": "This is a great game. I play this game all the time or when i need to relax. love it",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id121509029"
+          },
+          "name": {
+            "label": "Winged wolf 13"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "5"
+        },
+        "id": {
+          "label": "1286756059"
+        },
+        "title": {
+          "label": "LOVE"
+        },
+        "content": {
+          "label": "I really like this game. It's changeling and fast pace.",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      },
+      {
+        "author": {
+          "uri": {
+            "label": "https://itunes.apple.com/us/reviews/id432716574"
+          },
+          "name": {
+            "label": "Brennannaspliy"
+          },
+          "label": ""
+        },
+        "im:version": {
+          "label": "1.63.0"
+        },
+        "im:rating": {
+          "label": "1"
+        },
+        "id": {
+          "label": "1286748775"
+        },
+        "title": {
+          "label": "Keeps Crashing"
+        },
+        "content": {
+          "label": "No matter what, it always crashes whenever I open past the start button and whenever I try to start a new level, mainly the hard ones. Come on!",
+          "attributes": {
+            "type": "text"
+          }
+        },
+        "link": {
+          "attributes": {
+            "rel": "related",
+            "href": "https://itunes.apple.com/us/review?id=553834731&type=Purple%20Software"
+          }
+        },
+        "im:voteSum": {
+          "label": "0"
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Application",
+            "label": "Application"
+          }
+        },
+        "im:voteCount": {
+          "label": "0"
+        }
+      }
+    ],
+    "updated": {
+      "label": "2015-11-16T03:21:24-07:00"
+    },
+    "rights": {
+      "label": "Copyright 2008 Apple Inc."
+    },
+    "title": {
+      "label": "iTunes Store: Customer Reviews"
+    },
+    "icon": {
+      "label": "http://itunes.apple.com/favicon.ico"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&id=38"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "self",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=2/id=553834731/sortBy=mostRecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "first",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=553834731/sortby=mostrecent/xml?urlDesc=/customerreviews/page=2/id=553834731/sortBy=mostRecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "last",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=10/id=553834731/sortby=mostrecent/xml?urlDesc=/customerreviews/page=2/id=553834731/sortBy=mostRecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "previous",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=553834731/sortby=mostrecent/xml?urlDesc=/customerreviews/page=2/id=553834731/sortBy=mostRecent/json"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "next",
+          "href": "https://itunes.apple.com/us/rss/customerreviews/page=3/id=553834731/sortby=mostrecent/xml?urlDesc=/customerreviews/page=2/id=553834731/sortBy=mostRecent/json"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://itunes.apple.com/us/rss/customerreviews/page=2/id=553834731/sortBy=mostRecent/json"
+    }
+  }
+}
